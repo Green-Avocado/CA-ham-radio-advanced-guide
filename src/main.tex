@@ -2,6 +2,7 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
+
 \hypersetup{colorlinks,allcolors=blue}
 
 \begin{document}
@@ -10,6 +11,9 @@
         Canadian Amateur Radio Operator Guide
 
         Advanced
+
+        \large
+        written by VE6SDR
     \end{center}
 
     \pagenumbering{roman}
@@ -21,49 +25,136 @@
     \section*{Keywords}
         \addcontentsline{toc}{section}{Keywords}
         \begin{description}
-            \item[farad] The unit of capacitance (symbol: $ F $), 1 farad is the capacitance of a capacitor that has a charge of 1 coulomb when applied voltage drop of 1 volt.
-            \item[henry] The unit of inductance (symbol: $ H $), 1 henry is the amount of inductance that causes a voltage of one volt, when the current is changing at a rate of one ampere per second.
+            \item[farad] The unit of capacitance (symbol: F), 1 farad is the capacitance of a capacitor that has a charge of 1 coulomb when applied voltage drop of 1 volt.
+            \item[henry] The unit of inductance (symbol: H), 1 henry is the amount of inductance that causes a voltage of one volt, when the current is changing at a rate of one ampere per second.
             \item[RC circuit] A resistor–capacitor circuit (RC circuit), or RC filter or RC network, is an electric circuit composed of resistors and capacitors driven by a voltage or current source. A first order RC circuit is composed of one resistor and one capacitor and is the simplest type of RC circuit.
             \item[RL circuit] A resistor–inductor circuit (RL circuit), or RL filter or RL network, is an electric circuit composed of resistors and inductors driven by a voltage or current source. A first-order RL circuit is composed of one resistor and one inductor and is the simplest type of RL circuit.
+            \item[Series RLC circuit] A series RLC circuit consists of a resistance, a capacitance and an inductance connected in series across an alternating supply.
+            \item[Skin Effect] The tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
         \end{description}
 
+    \newpage
+    
     \section{Advanced Theory}
-        \subsection{RC circuits}
+        \subsection{Basics}
+        \subsubsection{Fields}
+        \begin{description}
+            \item[electromagnetic field] the magnetic field created around a conductor carrying current.
+            \item[magnetic field] a space around a magnet or a conductor where a magnetic force is present.
+
+                The `Left-hand Rule':
+                position the left hand with your thumb pointing in the direction of electron flow;
+                encircle the conductor with the remaining fingers, the fingers point in the direction of the magnetic lines of force.
+                Using conventional current flow, this would become the Right-hand rule.
+
+                A magnetic field is oriented about a conductor in relation to the direction of electron flow \textbf{in the direction determined by the left-hand rule}.
+
+            \item[electrostatic field] the electric field present between objects with different static electrical charges.
+
+                An electrostatic field is the electric field present between objects with different static electrical charges.
+                Voltage across a capacitor creates an electrostatic field between the plates.
+
+            \item[electric field] a space where an electrical charge exerts a force (attraction or repulsion) on other charges.
+        \end{description}
+
+        \begin{itemize}
+            \item Electromagnetic and electrostatic fields are capable of storing energy.
+
+                Energy in this state is \textbf{potential energy}.
+        \end{itemize}
+
+        \subsubsection{Capacitors}
+        Capacitors store energy in an \textbf{electrostatic field}.
+        The capacitance in \textbf{farads} is one factor influencing how much energy can be stored in a capacitor.
+        One farad accepts a charge of one coulomb when subjected to one volt.
+
+        \subsubsection{Inductors}
+        Inductors store energy in an electromagnetic field.
+        The inductance in \textbf{henries} is one factor influencing how much energy can be stored in an inductor.
+        One henry produces one volt of counter EMF with current changing at a rate of one ampere per second.
+
+        \subsubsection{Skin Effect}
+        Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+
+        \begin{itemize}
+            \item Skin Effect causes most of an RF current to flow along the surface of a conductor.
+            \item The resistance of a conductor different for RF currents than for direct currents because of the Skin Effect.
+        \end{itemize}
+
+        \subsection{Resistor-capacitor circuits}
         \subsubsection{Time constant}
         The time constant of an RC circuit (in seconds), is equal to the product of the circuit resistance (in ohms) and the circuit capacitance (in farads).
         $$ \tau = R \cdot C $$
-        For example:
-        $$ 6s = 2\Omega \cdot 3F $$
         It is the time required to:
         \begin{itemize}
             \item \textbf{charge} the capacitor from an initial charge voltage of zero to approximately \textbf{63.2\%} of the value of an applied DC \textbf{voltage}, or
             \item \textbf{discharge} the capacitor to approximately \textbf{36.8\%} of its initial charge \textbf{voltage}.
         \end{itemize}
 
-        \subsection{RL circuits}
+        When charging a capacitor, every time constant reduces the difference to the value of applied DC voltage by 63.2\%.
+        $$ \Delta V_f = \Delta V_i \cdot 0.368^{t / \tau} $$
+        Where $ \Delta V $ is the difference between the voltage of the capacitor and the applied DC voltage, and $ t $ is time in seconds.
+
+        When discharging a capacitor, every time constant reduces the voltage of the capacitor by 63.2\%.
+        $$ V_f = V_i \cdot 0.368^{t / \tau} $$
+        Where $ V $ is the voltage of the capacitor and $ t $ is time in seconds.
+
+        \begin{itemize}
+            \item Charging a capacitor, the voltage after 1, 2, and 5 times constants is respectively 63\%, 87\%, and 100\% of the final value.
+            \item Discharging a capacitor, the voltage is respectively 37\% ($ 100 - 63 $) and 13\% ($ 100 - 87 $) of the initial voltage after 1 and 2 time constants.
+        \end{itemize}
+
+        \subsection{Resistor-inductor circuits}
         \subsubsection{Time constant}
         The time constant of an RL circuit (in seconds), is equal to the circuit inductance (in henries) divided by the circuit resistance (in ohms).
         $$ \tau = L / R $$
-        For example:
-        $$ 3s = 6H / 2\Omega $$
         It is the time required to:
         \begin{itemize}
-            \item \textbf{build} the current in the \textbf{circuit} up to \textbf{63.2\%} of its maximum value.
+            \item \textbf{build} the \textbf{current} in the circuit up to \textbf{63.2\%} of its maximum value.
         \end{itemize}
 
-        \subsubsection{Back EMF}
+        When building current in a circuit, every time constant reduces the difference to the maximum value by 63.2\%.
+        $$ \Delta I_f = \Delta I_i \cdot 0.368^{t / \tau} $$
+        Where $ \Delta I $ is the difference between the current in a circuit and the maximum value, and $ t $ is time in seconds.
+
+        \begin{itemize}
+            \item The current after 1, 2 and 5 time constants is respectively 63\%, 87\%, and 100\% of the final value.
+        \end{itemize}
+
+        \subsubsection{Counter electromotive force}
         Back EMF or `counter electromotive force' is the voltage induced by changing current in an inductor. It is the force opposing changes in current through inductors.
         \textbf{Back EMF} is \textbf{A voltage that opposes the applied EMF}.
 
+        \subsection{Resistor-inductor-capacitor circuits}
+        \subsubsection{Resonant frequency}
+        Resonance occurs in a series RLC circuit when the supply frequency causes the voltages across L and C to be equal and opposite in phase.
+
+        The resonant frequency of a series RLC circuit is calculated as follows for inductance in henries and capaciance in farads:
+        $$ f = \frac{1}{2 \pi \sqrt{LC}} $$
+        Restating the equation for frequency in megahertz, inductance in microhenries, and capacitance in picofarads results in the following equation:
+        $$ f(\mathrm{MHz}) = \frac{1000}{2 \pi \sqrt{L (\mathrm{\mu H}) \cdot C (\mathrm{p F)}}} $$
+
+    \newpage
+
     \section{Advanced Components and Circuits}
+
+    \newpage
 
     \section{Measurements}
 
+    \newpage
+
     \section{Power Supplies}
+
+    \newpage
 
     \section{Transmitters, Modulation, and Processing}
 
+    \newpage
+
     \section{Receivers}
+
+    \newpage
 
     \section{Feedlines - Matching and Antenna Systems}
 
