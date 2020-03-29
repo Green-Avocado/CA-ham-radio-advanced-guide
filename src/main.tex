@@ -2,16 +2,14 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
-\hypersetup{
-    colorlinks,
-    allcolors=blue,
-}
+\hypersetup{colorlinks,allcolors=blue}
 
 \begin{document}
     \begin{center}
         \Large
-        TITLE
+        Canadian Amateur Radio Operator Guide
 
+        Advanced
     \end{center}
 
     \pagenumbering{roman}
@@ -19,15 +17,55 @@
     \newpage
 
     \pagenumbering{arabic}
-    \setcounter{section}{-1}
 
-    \section{Keywords}
-    \begin{itemize}
-        \item 
+    \section*{Keywords}
+        \addcontentsline{toc}{section}{Keywords}
+        \begin{description}
+            \item[farad] The unit of capacitance (symbol: $ F $), 1 farad is the capacitance of a capacitor that has a charge of 1 coulomb when applied voltage drop of 1 volt.
+            \item[henry] The unit of inductance (symbol: $ H $), 1 henry is the amount of inductance that causes a voltage of one volt, when the current is changing at a rate of one ampere per second.
+            \item[RC circuit] A resistor–capacitor circuit (RC circuit), or RC filter or RC network, is an electric circuit composed of resistors and capacitors driven by a voltage or current source. A first order RC circuit is composed of one resistor and one capacitor and is the simplest type of RC circuit.
+            \item[RL circuit] A resistor–inductor circuit (RL circuit), or RL filter or RL network, is an electric circuit composed of resistors and inductors driven by a voltage or current source. A first-order RL circuit is composed of one resistor and one inductor and is the simplest type of RL circuit.
+        \end{description}
 
-    \end{itemize}
+    \section{Advanced Theory}
+        \subsection{RC circuits}
+        \subsubsection{Time constant}
+        The time constant of an RC circuit (in seconds), is equal to the product of the circuit resistance (in ohms) and the circuit capacitance (in farads).
+        $$ \tau = R \cdot C $$
+        For example:
+        $$ 6s = 2\Omega \cdot 3F $$
+        It is the time required to:
+        \begin{itemize}
+            \item \textbf{charge} the capacitor from an initial charge voltage of zero to approximately \textbf{63.2\%} of the value of an applied DC \textbf{voltage}, or
+            \item \textbf{discharge} the capacitor to approximately \textbf{36.8\%} of its initial charge \textbf{voltage}.
+        \end{itemize}
 
-    \section{SECTION}
+        \subsection{RL circuits}
+        \subsubsection{Time constant}
+        The time constant of an RL circuit (in seconds), is equal to the circuit inductance (in henries) divided by the circuit resistance (in ohms).
+        $$ \tau = L / R $$
+        For example:
+        $$ 3s = 6H / 2\Omega $$
+        It is the time required to:
+        \begin{itemize}
+            \item \textbf{build} the current in the \textbf{circuit} up to \textbf{63.2\%} of its maximum value.
+        \end{itemize}
+
+        \subsubsection{Back EMF}
+        Back EMF or `counter electromotive force' is the voltage induced by changing current in an inductor. It is the force opposing changes in current through inductors.
+        \textbf{Back EMF} is \textbf{A voltage that opposes the applied EMF}.
+
+    \section{Advanced Components and Circuits}
+
+    \section{Measurements}
+
+    \section{Power Supplies}
+
+    \section{Transmitters, Modulation, and Processing}
+
+    \section{Receivers}
+
+    \section{Feedlines - Matching and Antenna Systems}
 
 \end{document}
 
