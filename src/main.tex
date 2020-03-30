@@ -2,6 +2,7 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
 
 \hypersetup{colorlinks,allcolors=blue}
 
@@ -27,6 +28,7 @@
         \begin{description}
             \item[farad] The unit of capacitance (symbol: F), 1 farad is the capacitance of a capacitor that has a charge of 1 coulomb when applied voltage drop of 1 volt.
             \item[henry] The unit of inductance (symbol: H), 1 henry is the amount of inductance that causes a voltage of one volt, when the current is changing at a rate of one ampere per second.
+            \item[Parallel RLC circuit] A parallel RLC circuit consists of a resistance, a capacitance and an inductance connected in parallel across an alternating supply.
             \item[RC circuit] A resistor–capacitor circuit (RC circuit), or RC filter or RC network, is an electric circuit composed of resistors and capacitors driven by a voltage or current source. A first order RC circuit is composed of one resistor and one capacitor and is the simplest type of RC circuit.
             \item[RL circuit] A resistor–inductor circuit (RL circuit), or RL filter or RL network, is an electric circuit composed of resistors and inductors driven by a voltage or current source. A first-order RL circuit is composed of one resistor and one inductor and is the simplest type of RL circuit.
             \item[Series RLC circuit] A series RLC circuit consists of a resistance, a capacitance and an inductance connected in series across an alternating supply.
@@ -68,10 +70,16 @@
         The capacitance in \textbf{farads} is one factor influencing how much energy can be stored in a capacitor.
         One farad accepts a charge of one coulomb when subjected to one volt.
 
+        Capacitive reactance is calculated as follows:
+        $$ X_C = \frac{1}{2 \pi f C} $$
+
         \subsubsection{Inductors}
         Inductors store energy in an electromagnetic field.
         The inductance in \textbf{henries} is one factor influencing how much energy can be stored in an inductor.
         One henry produces one volt of counter EMF with current changing at a rate of one ampere per second.
+
+        Inductive reactance is calculated as follows:
+        $$ X_L = 2 \pi f L $$
 
         \subsubsection{Skin Effect}
         Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
@@ -80,6 +88,8 @@
             \item Skin Effect causes most of an RF current to flow along the surface of a conductor.
             \item The resistance of a conductor different for RF currents than for direct currents because of the Skin Effect.
         \end{itemize}
+
+        \newpage
 
         \subsection{Resistor-capacitor circuits}
         \subsubsection{Time constant}
@@ -125,14 +135,34 @@
         Back EMF or `counter electromotive force' is the voltage induced by changing current in an inductor. It is the force opposing changes in current through inductors.
         \textbf{Back EMF} is \textbf{A voltage that opposes the applied EMF}.
 
+        \newpage
+
         \subsection{Resistor-inductor-capacitor circuits}
-        \subsubsection{Resonant frequency}
+        \subsubsection{Series}
         Resonance occurs in a series RLC circuit when the supply frequency causes the voltages across L and C to be equal and opposite in phase.
+        At resonance, reactances are equal.
+        $$ X_L = X_C $$
 
         The resonant frequency of a series RLC circuit is calculated as follows for inductance in henries and capaciance in farads:
         $$ f = \frac{1}{2 \pi \sqrt{LC}} $$
+
         Restating the equation for frequency in megahertz, inductance in microhenries, and capacitance in picofarads results in the following equation:
-        $$ f(\mathrm{MHz}) = \frac{1000}{2 \pi \sqrt{L (\mathrm{\mu H}) \cdot C (\mathrm{p F)}}} $$
+        $$ f(\mathrm{MHz}) = \frac{1000}{2 \pi \sqrt{L (\mathrm{\mu H}) \cdot C (\mathrm{p F})}} $$
+
+        These equations can be rearranged to solve for inductance or capacitance as follows:
+        \begin{align*}
+            L &= \frac{1}{4 \pi^2 f^2 C} \\
+            C &= \frac{1}{4 \pi^2 f^2 L}
+        \end{align*}
+
+        Or in megahertz, microhenries, and picofarads:
+        \begin{align*}
+            L (\mathrm{\mu H}) &= \frac{1000000}{4 \pi^2 f (\mathrm{MHz})^2 C (\mathrm{p F})} \\
+            C (\mathrm{p F}) &= \frac{1000000}{4 \pi^2 f (\mathrm{MHz})^2 L (\mathrm{\mu H})}
+        \end{align*}
+
+        \subsubsection{Parallel}
+        A resistor often included in a parallel resonant circuit \textbf{to decrease the Q and increase the bandwidth}.
 
     \newpage
 
