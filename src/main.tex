@@ -41,7 +41,7 @@
     \pagenumbering{arabic}
     
     \section{Advanced Theory}
-        \subsection{Basics}
+        \subsection{Fundamentals}
         \subsubsection{Fields}
         \begin{description}
             \item[electromagnetic field] the magnetic field created around a conductor carrying current.
@@ -186,6 +186,8 @@
 
         The three general groupings of filters are \textbf{high-pass, low-pass, and band-pass}.
 
+        Note: \textbf{The bandwidth of a fast-scan TV channel is 6 MHz;  that is much too wide for any of the filters listed}.
+
         \subsubsection{Crystal filters}
         A crystal lattice filter is \textbf{filter with narrow bandwidth and steep skirts made using quartz crystals}.
 
@@ -227,22 +229,34 @@
         Piezoelectric crystals can serve as filters because of their extremely high ``Q'' (greater than 25 000) or as stable, noise-free, and accurate frequency references.
 
         \subsubsection{Butterworth and Chebyshev filters}
-
         The Butterworth class of filters exhibit ``maximally flat response'': smooth response, no passband ripple.
         Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].
-
         \begin{itemize}
             \item The distinguishing feature of a Butterworth filter is that \textbf{it has a maximally flat response over its pass-band}.
+            \item The primary advantage of the Butterworth filter over the Chebyshev filter is that \textbf{it has maximally flat response over its passband}.
         \end{itemize}
-
         Here is a mnemonic trick: ``The Butterworth's response is smooth as butter''.
 
         The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.
         Elliptic filters are sharper than the previous two.
-
         \begin{itemize}
             \item The distinguishing feature of a Chebyshev filter is that \textbf{it allows ripple in the passband in return for steeper skirts}.
+            \item The primary advantage of the Chebyshev filter over the Butterworth filter is that \textbf{it allows ripple in the passband in return for steeper skirts}.
             \item \textbf{A Chebyshev filter} is described as having ripple in the passband and a sharp cutoff.
+        \end{itemize}
+
+        \subsubsection{Resonant cavities}
+        The quarter wavelength Resonant Cavity behaves like a very high Q filter.
+        Due to their physical size, they become practical only at VHF frequencies.
+        \begin{itemize}
+            \item At 50 MHz (6 m), the length of the cavity is \textbf{1.5 m} (one quarter wavelength).
+            \item The \textbf{cavity} filter type is not suitable for use at audio and low radio frequencies.
+        \end{itemize}
+
+        \subsubsection{Helical resonators}
+        The Helical Resonator, based on the concept of a resonant helically-wound section of transmission line within a shielded enclosure, achieves selectivity comparable to the quarter-wave resonant cavity but with a substantial size reduction.
+        \begin{itemize}
+            \item A device which helps with receiver overload and spurious responses at VHF, UHF and above may be installed in the receiver front end. It is called a \textbf{helical resonator}.
         \end{itemize}
 
         \newpage
