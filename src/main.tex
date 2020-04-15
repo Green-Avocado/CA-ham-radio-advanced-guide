@@ -292,8 +292,36 @@
         \end{itemize}
 
         \subsubsection{Diodes}
+        \begin{description}
+            \item[Zener diodes] maintain a constant voltage across a range of currents.
+            \item[The Varactor] (or Varicap) is a diode used under reverse bias as a ``voltage-variable capacitor''.
+            \item[Hot-carrier diodes] (or Schottky-barrier diodes) have lower forward voltage and good high-frequency response:
+                \begin{itemize}
+                    \item their speed make them useful in Very High Frequency mixers or detectors;
+                    \item in power circuits, they are excellent rectifiers in switching power supplies.
+                \end{itemize}
+            \item[PIN diodes] (with a layer of undoped or lightly doped `intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+        \end{description}
 
-        Zener diodes maintain a constant voltage across a range of currents.
+        Diodes conduct in one direction only:
+        under forward bias, maximum forward current is limited by acceptable junction temperature.
+        The voltage drop across the junction (volts) multiplied by the forward current (amperes) gives rise to heat dissipation (watts).
+        Surviving a reverse bias is determined by the Peak Inverse Voltage (PIV) rating.
+
+        There are two main categories of semiconductor diodes:
+        \begin{description}
+            \item[Point-contact diodes] where a small metal whisker touches the semiconductor material, exhibit low capacitance and serve as RF detectors or UHF mixers.
+            \item[Junction diodes] are formed with adjacent blocks of P and N material; these are usable from DC to microwave.
+        \end{description}
+
+        To calculate power, voltage, or current of a diode:
+        $$ P = I V $$
+        where $ P $ is power in watts, $ I $ is current in amperes, and $ V $ is voltage in volts.
+
+        Heat flows from hot to cold.
+        If ambient temperature is higher, less heat can be drained from the junction, the junction will reach maximum safe operating temperature quicker.
+
+        \subsubsection{Transistors}
 
         \newpage
 
