@@ -13,586 +13,586 @@
 ' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 {L02} Inductors and Capacitors.
 
-A-1-1-1 (D) What is the meaning of the term "time constant" in an RL circuit?
-A	The time required for the current in the circuit to build up to 36.8% of the maximum value
-B	The time required for the voltage in the circuit to build up to 63.2% of the maximum value
-C	The time required for the voltage in the circuit to build up to 36.8% of the maximum value
-D	The time required for the current in the circuit to build up to 63.2% of the maximum value
-> Inductance is a property of circuits that oppose changes in current.  The time constant is the time current WOULD need to reach final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals L in henrys divided by R in ohms:  the lower the resistance, the greater the rate of change resulting in greater opposition.  The current after 1, 2 and 5 time constants is respectively 63%, 87% and 100% of the final value.  With capacitors, the ratios are the same but they relate to voltage;  the time constant then becomes R times C.
-A-1-1-2 (D) What is the term for the time required for the capacitor in an RC circuit to be charged to 63.2% of the supply voltage?
-A	An exponential rate of one
-B	A time factor of one
-C	One exponential period
-D	One time constant
-> Capacitance is a property of circuits that oppose changes in voltage.  Under charging conditions, the time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  With inductors, the ratios are the same but they relate to current;  the time constant then becomes L divided by R.
-A-1-1-3 (A) What is the term for the time required for the current in an RL circuit to build up to 63.2% of the maximum value?
-A	One time constant
-B	An exponential period of one
-C	A time factor of one
-D	One exponential rate
-> Inductance is a property of circuits that oppose changes in current.  The time constant is the time current WOULD need to reach final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals L in henrys divided by R in ohms:  the lower the resistance, the greater the rate of change resulting in greater opposition.  The current after 1, 2 and 5 time constants is respectively 63%, 87% and 100% of the final value.  With capacitors, the ratios are the same but they relate to voltage;  the time constant then becomes R times C.
-A-1-1-4 (A) What is the term for the time it takes for a charged capacitor in an RC circuit to discharge to 36.8% of its initial value of stored charge?
-A	One time constant
-B	A discharge factor of one
-C	An exponential discharge of one
-D	One discharge period
-> Key word:  DISCHARGE. The time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  Heading towards ZERO, we are left with 37% (100 minus 63) and 13% (100 minus 87) respectively after 1 and 2 time constants.
-A-1-1-5 (A) What is meant by "back EMF"?
-A	A voltage that opposes the applied EMF
-B	A current that opposes the applied EMF
-C	An opposing EMF equal to R times C percent of the applied EMF
-D	A current equal to the applied EMF
-> 'Back EMF' or 'counter electromotive force' is the voltage induced by changing current in an inductor.  It is the force opposing changes in current through inductors.
-A-1-1-6 (A) After two time constants, the capacitor in an RC circuit is charged to what percentage of the supply voltage?
-A	86.5%
-B	63.2%
-C	95%
-D	36.8%
-> Capacitance is a property of circuits that oppose changes in voltage.  Under charging conditions, the time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  With inductors, the ratios are the same but they relate to current;  the time constant then becomes L divided by R.
-A-1-1-7 (A) After two time constants, the capacitor in an RC circuit is discharged to what percentage of the starting voltage?
-A	13.5%
-B	36.8%
-C	86.5%
-D	63.2%
-> Key word:  DISCHARGE. The time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  Heading towards ZERO, we are left with 37% (100 minus 63) and 13% (100 minus 87) respectively after 1 and 2 time constants.
-A-1-1-8 (C) What is the time constant of a circuit having a 100 microfarad capacitor in series with a 470 kilohm resistor?
-A	470 seconds
-B	0.47 seconds
-C	47 seconds
-D	4700 seconds
-> The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  100 microfarads times 0.470 megohm = 100 times 0.47 = 47 seconds.
-A-1-1-9 (C) What is the time constant of a circuit having a 470 microfarad capacitor in series with a 470 kilohm resistor?
-A	47 000 seconds
-B	470 seconds
-C	221 seconds
-D	221 000 seconds
-> The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  470 microfarads times 0.470 megohm = 470 times 0.47 = 221 seconds.
-A-1-1-10 (C) What is the time constant of a circuit having a 220 microfarad capacitor in series with a 470 kilohm resistor?
-A	470 seconds
-B	220 seconds
-C	103 seconds
-D	470 000 seconds
-> The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  220 microfarads times 0.470 megohm = 220 times 0.47 = 103 seconds.
-A-1-2-1 (C) What is the result of skin effect?
-A	Thermal effects on the surface of the conductor increase impedance
-B	Thermal effects on the surface of the conductor decrease impedance
-C	As frequency increases, RF current flows in a thinner layer of the conductor, closer to the surface
-D	As frequency decreases, RF current flows in a thinner layer of the conductor, closer to the surface
-> Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
-A-1-2-2 (C) What effect causes most of an RF current to flow along the surface of a conductor?
-A	Resonance effect
-B	Layer effect
-C	Skin effect
-D	Piezoelectric effect
-> Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
-A-1-2-3 (D) Where does almost all RF current flow in a conductor?
-A	In a magnetic field in the centre of the conductor
-B	In a magnetic field around the conductor
-C	In the centre of the conductor
-D	Along the surface of the conductor
-> Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
-A-1-2-4 (B) Why does most of an RF current flow within a very thin layer under the conductor's surface?
-A	Because of heating of the conductor's interior
-B	Because of skin effect
-C	Because the RF resistance of a conductor is much less than the DC resistance
-D	Because a conductor has AC resistance due to self-inductance
-> Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
-A-1-2-5 (D) Why is the resistance of a conductor different for RF currents than for direct currents?
-A	Because of the Hertzberg effect
-B	Because conductors are non-linear devices
-C	Because the insulation conducts current at high frequencies
-D	Because of skin effect
-> Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
-A-1-2-6 (D) What unit measures the ability of a capacitor to store electrical charge?
-A	Coulomb
-B	Watt
-C	Volt
-D	Farad
-> Capacitors store energy in an electrostatic field.  The capacitance in farads is one factor influencing how much energy can be stored in a capacitor.  The coulomb is a quantity of electrons ( 6 times 10 exponent 18 ).  One farad accepts a charge of one coulomb when subjected to one volt.  The watt is a rate of doing work (one joule per second).  One volt, a force, moves one coulomb with one joule of energy.
-A-1-2-7 (A) A wire has a current passing through it. Surrounding this wire there is:
-A	an electromagnetic field
-B	an electrostatic field
-C	a cloud of electrons
-D	a skin effect that diminishes with distance
-> An electromagnetic field is the magnetic field created around a conductor carrying current.  A magnetic field is a space around a magnet or a conductor where a magnetic force is present.  A magnetic field is composed of magnetic lines of force.  An electrostatic field is the electric field present between objects with different static electrical charges.  An electric field is a space where an electrical charge exerts a force (attraction or repulsion) on other charges.
-A-1-2-8 (C) In what direction is the magnetic field oriented about a conductor in relation to the direction of electron flow?
-A	In the same direction as the current
-B	In the direct opposite to the current
-C	In the direction determined by the left-hand rule
-D	In all directions
-> The 'Left-hand Rule':  position the left hand with your thumb pointing in the direction of electron flow; encircle the conductor with the remaining fingers, the fingers point in the direction of the magnetic lines of force.  [ Using conventional current flow, this would become the Right-hand rule. ]
-A-1-2-9 (A) What is the term for energy that is stored in an electromagnetic or electrostatic field?
-A	Potential energy
-B	Kinetic energy
-C	Ampere-joules
-D	Joule-coulombs
-> Key word:  STORED.  Potential:  "capable of coming into being or action (Canadian Oxford)".  Kinetic:  "of or due to motion (Canadian Oxford)".
-A-1-2-10 (A) Between the charged plates of a capacitor there is:
-A	an electrostatic field
-B	a magnetic field
-C	a cloud of electrons
-D	an electric current
-> Voltage across a capacitor creates an electrostatic field between the plates.  An electrostatic field is the electric field present between objects with different static electrical charges.  An electric field is a space where an electrical charge exerts a force (attraction or repulsion) on other charges.
-A-1-2-11 (B) Energy is stored within an inductor that is carrying a current. The amount of energy depends on this current, but it also depends on a property of the inductor. This property has the following unit:
-A	watt
-B	henry
-C	coulomb
-D	farad
-> Inductors store energy in an electromagnetic field.  The inductance in henrys is one factor influencing how much energy can be stored in an inductor.  One henry produces one volt of counter EMF with current changing at a rate of one ampere per second.  The coulomb is a quantity of electrons ( 6 times 10 exponent 18 ).  One farad accepts a charge of one coulomb when subjected to one volt.  The watt is a rate of doing work (one joule per second).
-A-1-3-1 (D) What is the resonant frequency of a series RLC circuit if R is 47 ohms, L is 50 microhenrys and C is 40 picofarads?
-A	1.78 MHz
-B	7.96 MHz
-C	79.6 MHz
-D	3.56 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  50 times 40 equals 2000 ;  The square root of 2000 is 44.7 ;  44.7 times 2 times 3.14 is 280.7 ;  1000 divided by 280.7 is 3.56 MHz.
-A-1-3-2 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 40 microhenrys and C is 200 picofarads?
-A	1.99 kHz
-B	1.99 MHz
-C	1.78 kHz
-D	1.78 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  40 times 200 equals 8000 ;  The square root of 8000 is 89.4 ;  89.4 times 2 times 3.14 is 561.4 ;  1000 divided by 561.4 is 1.78 MHz.
-A-1-3-3 (C) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 50 microhenrys and C is 10 picofarads?
-A	3.18 MHz
-B	3.18 kHz
-C	7.12 MHz
-D	7.12 kHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  50 times 10 equals 500 ;  The square root of 500 is 22.4 ;  22.4 times 2 times 3.14 is 140.7 ;  1000 divided by 140.7 is 7.11 MHz.
-A-1-3-4 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 25 microhenrys and C is 10 picofarads?
-A	63.7 MHz
-B	10.1 kHz
-C	63.7 kHz
-D	10.1 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  25 times 10 equals 250 ;  The square root of 250 is 15.8 ;  15.8 times 2 times 3.14 is 99.2 ;  1000 divided by 99.2 is 10.08 MHz.
-A-1-3-5 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 3 microhenrys and C is 40 picofarads?
-A	13.1 MHz
-B	13.1 kHz
-C	14.5 kHz
-D	14.5 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 40 equals 120 ;  The square root of 120 is 11 ;  11 times 2 times 3.14 is 69.1 ;  1000 divided by 69.1 is 14.47 MHz.
-A-1-3-6 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 4 microhenrys and C is 20 picofarads?
-A	19.9 MHz
-B	19.9 kHz
-C	17.8 kHz
-D	17.8 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  4 times 20 equals 80 ;  The square root of 80 is 8.9 ;  8.9 times 2 times 3.14 is 55.9 ;  1000 divided by 55.9 is 17.89 MHz.
-A-1-3-7 (B) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 8 microhenrys and C is 7 picofarads?
-A	2.13 MHz
-B	21.3 MHz
-C	28.4 MHz
-D	2.84 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  8 times 7 equals 56 ;  The square root of 56 is 7.5 ;  7.5 times 2 times 3.14 is 47.1 ;  1000 divided by 47.1 is 21.23 MHz.
-A-1-3-8 (B) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 3 microhenrys and C is 15 picofarads?
-A	23.7 kHz
-B	23.7 MHz
-C	35.4 MHz
-D	35.4 kHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 15 equals 45 ;  The square root of 45 is 6.7 ;  6.7 times 2 times 3.14 is 42.1 ;  1000 divided by 42.1 is 23.75 MHz.
-A-1-3-9 (A) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 4 microhenrys and C is 8 picofarads?
-A	28.1 MHz
-B	49.7 MHz
-C	49.7 kHz
-D	28.1 kHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  4 times 8 equals 32 ;  The square root of 32 is 5.7 ;  5.7 times 2 times 3.14 is 35.8 ;  1000 divided by 35.8 is 27.93 MHz.
-A-1-3-10 (A) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 1 microhenry and C is 9 picofarads?
-A	53.1 MHz
-B	5.31 MHz
-C	17.7 MHz
-D	1.77 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  1 times 9 equals 9 ;  The square root of 9 is 3 ;  3 times 2 times 3.14 is 18.8 ;  1000 divided by 18.8 is 53.19 MHz.
-A-1-3-11 (C) What is the value of capacitance (C) in a series R-L-C circuit, if the circuit resonant frequency is 14.25 MHz and L is 2.84 microhenrys?
-A	44 microfarads
-B	2.2 picofarads
-C	44 picofarads
-D	2.2 microfarads
-> Method A:  Reactances are equal at resonance.  XL = 2 times 3.14 times 14.25 times 2.84 = 254.2 ohms.  XC = 1 over ( 2 pi f C ).  Restating for f in megahertz and C in picofarads, XC = one million over 2 pi megahertz times picofarads.  Thus, C = one million over ( 2 pi f XC ) ;  2 times 3.14 times 14.25 times 254.2 = 22 748 ;   one million divided by 22 748 = 43.96 picofarads.  Method B:  at 14 MHz, C has to be in picofarads;  test the two answers in picofarads with "resonant frequency in megahertz equals 1000 over ( 2 pi times the square root of microhenrys times picofarads )".
-A-1-4-1 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 1 microhenry and C is 10 picofarads?
-A	50.3 MHz
-B	15.9 kHz
-C	50.3 kHz
-D	15.9 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  1 times 10 equals 10 ;  The square root of 9 is 3.2 ;  3.2 times 2 times 3.14 is 20.1 ;  1000 divided by 20.1 is 49.75 MHz.
-A-1-4-2 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 2 microhenrys and C is 15 picofarads?
-A	29.1 kHz
-B	5.31 MHz
-C	5.31 kHz
-D	29.1 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  2 times 15 equals 30 ;  The square root of 30 is 5.5 ;  5.5 times 2 times 3.14 is 34.5 ;  1000 divided by 34.5 is 28.99 MHz.
-A-1-4-3 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 5 microhenrys and C is 9 picofarads?
-A	3.54 kHz
-B	23.7 MHz
-C	23.7 kHz
-D	3.54 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  5 times 9 equals 45 ;  The square root of 45 is 6.7 ;  6.7 times 2 times 3.14 is 42.1 ;  1000 divided by 42.1 is 23.75 MHz.
-A-1-4-4 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 2 microhenrys and C is 30 picofarads?
-A	20.5 MHz
-B	2.65 MHz
-C	2.65 kHz
-D	20.5 kHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  2 times 30 equals 60 ;  The square root of 60 is 7.7 ;  7.7 times 2 times 3.14 is 48.4 ;  1000 divided by 48.4 is 20.66 MHz.
-A-1-4-5 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 15 microhenrys and C is 5 picofarads?
-A	18.4 kHz
-B	18.4 MHz
-C	2.12 kHz
-D	2.12 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  15 times 5 equals 75 ;  The square root of 75 is 8.7 ;  8.7 times 2 times 3.14 is 54.6 ;  1000 divided by 54.6 is 18.32 MHz.
-A-1-4-6 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 3 microhenrys and C is 40 picofarads?
-A	1.33 kHz
-B	1.33 MHz
-C	14.5 kHz
-D	14.5 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 40 equals 120 ;  The square root of 120 is 11 ;  11 times 2 times 3.14 is 69.1 ;  1000 divided by 69.1 is 14.47 MHz.
-A-1-4-7 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 40 microhenrys and C is 6 picofarads?
-A	6.63 MHz
-B	6.63 kHz
-C	10.3 kHz
-D	10.3 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  40 times 6 equals 240 ;  The square root of 240 is 15.5 ;  15.5 times 2 times 3.14 is 97.3 ;  1000 divided by 97.3 is 10.28 MHz.
-A-1-4-8 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 10 microhenrys and C is 50 picofarads?
-A	7.12 kHz
-B	3.18 MHz
-C	3.18 kHz
-D	7.12 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  10 times 50 equals 500 ;  The square root of 500 is 22.4 ;  22.4 times 2 times 3.14 is 140.7 ;  1000 divided by 140.7 is 7.11 MHz.
-A-1-4-9 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 200 microhenrys and C is 10 picofarads?
-A	7.96 kHz
-B	3.56 MHz
-C	3.56 kHz
-D	7.96 MHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  200 times 10 equals 2000 ;  The square root of 2000 is 44.7 ;  44.7 times 2 times 3.14 is 280.7 ;  1000 divided by 280.7 is 3.56 MHz.
-A-1-4-10 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 90 microhenrys and C is 100 picofarads?
-A	1.68 MHz
-B	1.77 kHz
-C	1.77 MHz
-D	1.68 kHz
-> Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  90 times 100 equals 9000 ;  The square root of 9000 is 94.9 ;  94.9 times 2 times 3.14 is 596 ;  1000 divided by 596 is 1.68 MHz.
-A-1-4-11 (B) What is the value of inductance (L) in a parallel RLC circuit, if the resonant frequency is 14.25 MHz and C is 44 picofarads?
-A	0.353 microhenry
-B	2.8 microhenrys
-C	253.8 millihenrys
-D	3.9 millihenrys
-> Method A:  Reactances are equal at resonance.  XC = 1 over ( 2 pi f C ).  Restating for f in megahertz and C in picofarads, XC = one million over (2 pi times megahertz times picofarads).  XC = one million divided by ( 2 times 3.14 times 14.25 times 44 ) = 254 ohms.  With XL = 2 pi f L, L is XL divided by 2 pi f:  254 divided by ( 2 times 3.14 times 14.25 ) = 2.8 microhenrys.  Method B:  at 14 MHz, L has to be in microhenrys;  test the two answers in microhenrys with "resonant frequency in megahertz equals 1000 over ( 2 pi times the square root of microhenrys times picofarads )".
-A-1-5-1 (A) What is the Q of a parallel RLC circuit, if it is resonant at 14.128 MHz, L is 2.7 microhenrys and R is 18 kilohms?
-A	75.1
-B	7.51
-C	0.013
-D	71.5
-> Reactance = 2 pi f L = 2 times 3.14 times 14.128 times 2.7 = 240 ( the mega in megahertz cancels the micro in microhenrys).  Q = 18 000 divided by 240 = 75 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-2 (A) What is the Q of a parallel RLC circuit, if it is resonant at 14.128 MHz, L is 4.7 microhenrys and R is 18 kilohms?
-A	43.1
-B	13.3
-C	0.023
-D	4.31
-> Reactance = 2 pi f L = 2 times 3.14 times 14.128 times 4.7 = 417  ( the mega in megahertz cancels the micro in microhenrys).  Q = 18 000 divided by 417 = 43 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-3 (A) What is the Q of a parallel RLC circuit, if it is resonant at 4.468 MHz, L is 47 microhenrys and R is 180 ohms?
-A	0.136
-B	7.35
-C	0.00735
-D	13.3
-> Reactance = 2 pi f L = 2 times 3.14 times 4.468 times 47 = 1319  ( the mega in megahertz cancels the micro in microhenrys).  Q = 180 divided by 1319 = 0.136 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-4 (B) What is the Q of a parallel RLC circuit, if it is resonant at 14.225 MHz, L is 3.5 microhenrys and R is 10 kilohms?
-A	71.5
-B	31.9
-C	7.35
-D	0.0319
-> Reactance = 2 pi f L = 2 times 3.14 times 14.225 times 3.5 = 313 ( the mega in megahertz cancels the micro in microhenrys).  Q = 10 000 divided by 313 = 31.9 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-5 (A) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 8.2 microhenrys and R is 1 kilohm?
-A	2.73
-B	36.8
-C	0.368
-D	0.273
-> Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 8.2 = 367 ( the mega in megahertz cancels the micro in microhenrys).  Q = 1000 divided by 367 = 2.7 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-6 (C) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 10.1 microhenrys and R is 100 ohms?
-A	0.00452
-B	4.52
-C	0.221
-D	22.1
-> Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 10.1 = 452 ( the mega in megahertz cancels the micro in microhenrys).  Q = 100 divided by 452 = 0.22 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-7 (D) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 12.6 microhenrys and R is 22 kilohms?
-A	22.1
-B	0.0256
-C	25.6
-D	39
-> Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 12.6 = 564 ( the mega in megahertz cancels the micro in microhenrys).  Q = 22 000 divided by 564 = 39 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-8 (D) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 3 microhenrys and R is 2.2 kilohms?
-A	25.6
-B	31.1
-C	0.031
-D	32.2
-> Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 3 = 68 ( the mega in megahertz cancels the micro in microhenrys).  Q = 2200 divided by 68 = 32.3 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-9 (B) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 42 microhenrys and R is 220 ohms?
-A	0.00435
-B	0.23
-C	2.3
-D	4.35
-> Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 42 = 956 ( the mega in megahertz cancels the micro in microhenrys).  Q = 220 divided by 956 = 0.23 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-10 (D) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 43 microhenrys and R is 1.8 kilohms?
-A	0.543
-B	54.3
-C	23
-D	1.84
-> Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 43 = 979 ( the mega in megahertz cancels the micro in microhenrys).  Q = 1800 divided by 979 = 1.84 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
-A-1-5-11 (B) Why is a resistor often included in a parallel resonant circuit?
-A	To increase the Q and decrease bandwidth
-B	To decrease the Q and increase the bandwidth
-C	To increase the Q and decrease the skin effect
-D	To decrease the Q and increase the resonant frequency
-> A Damping Resistor can be placed across a parallel resonant circuit, or in series with a series resonant circuit, to lower the Q.  Reducing the Quality factor increases bandwidth.
+    A-1-1-1 (D) What is the meaning of the term "time constant" in an RL circuit?
+    A	The time required for the current in the circuit to build up to 36.8% of the maximum value
+    B	The time required for the voltage in the circuit to build up to 63.2% of the maximum value
+    C	The time required for the voltage in the circuit to build up to 36.8% of the maximum value
+    D	The time required for the current in the circuit to build up to 63.2% of the maximum value
+    > Inductance is a property of circuits that oppose changes in current.  The time constant is the time current WOULD need to reach final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals L in henrys divided by R in ohms:  the lower the resistance, the greater the rate of change resulting in greater opposition.  The current after 1, 2 and 5 time constants is respectively 63%, 87% and 100% of the final value.  With capacitors, the ratios are the same but they relate to voltage;  the time constant then becomes R times C.
+    A-1-1-2 (D) What is the term for the time required for the capacitor in an RC circuit to be charged to 63.2% of the supply voltage?
+    A	An exponential rate of one
+    B	A time factor of one
+    C	One exponential period
+    D	One time constant
+    > Capacitance is a property of circuits that oppose changes in voltage.  Under charging conditions, the time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  With inductors, the ratios are the same but they relate to current;  the time constant then becomes L divided by R.
+    A-1-1-3 (A) What is the term for the time required for the current in an RL circuit to build up to 63.2% of the maximum value?
+    A	One time constant
+    B	An exponential period of one
+    C	A time factor of one
+    D	One exponential rate
+    > Inductance is a property of circuits that oppose changes in current.  The time constant is the time current WOULD need to reach final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals L in henrys divided by R in ohms:  the lower the resistance, the greater the rate of change resulting in greater opposition.  The current after 1, 2 and 5 time constants is respectively 63%, 87% and 100% of the final value.  With capacitors, the ratios are the same but they relate to voltage;  the time constant then becomes R times C.
+    A-1-1-4 (A) What is the term for the time it takes for a charged capacitor in an RC circuit to discharge to 36.8% of its initial value of stored charge?
+    A	One time constant
+    B	A discharge factor of one
+    C	An exponential discharge of one
+    D	One discharge period
+    > Key word:  DISCHARGE. The time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  Heading towards ZERO, we are left with 37% (100 minus 63) and 13% (100 minus 87) respectively after 1 and 2 time constants.
+    A-1-1-5 (A) What is meant by "back EMF"?
+    A	A voltage that opposes the applied EMF
+    B	A current that opposes the applied EMF
+    C	An opposing EMF equal to R times C percent of the applied EMF
+    D	A current equal to the applied EMF
+    > 'Back EMF' or 'counter electromotive force' is the voltage induced by changing current in an inductor.  It is the force opposing changes in current through inductors.
+    A-1-1-6 (A) After two time constants, the capacitor in an RC circuit is charged to what percentage of the supply voltage?
+    A	86.5%
+    B	63.2%
+    C	95%
+    D	36.8%
+    > Capacitance is a property of circuits that oppose changes in voltage.  Under charging conditions, the time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  With inductors, the ratios are the same but they relate to current;  the time constant then becomes L divided by R.
+    A-1-1-7 (A) After two time constants, the capacitor in an RC circuit is discharged to what percentage of the starting voltage?
+    A	13.5%
+    B	36.8%
+    C	86.5%
+    D	63.2%
+    > Key word:  DISCHARGE. The time constant is the time voltage WOULD need to reach the final value IF the initial rate of change COULD be maintained.  The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  The voltage after 1, 2 and 5 times constants is respectively 63%, 87% and 100% of the final value.  Heading towards ZERO, we are left with 37% (100 minus 63) and 13% (100 minus 87) respectively after 1 and 2 time constants.
+    A-1-1-8 (C) What is the time constant of a circuit having a 100 microfarad capacitor in series with a 470 kilohm resistor?
+    A	470 seconds
+    B	0.47 seconds
+    C	47 seconds
+    D	4700 seconds
+    > The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  100 microfarads times 0.470 megohm = 100 times 0.47 = 47 seconds.
+    A-1-1-9 (C) What is the time constant of a circuit having a 470 microfarad capacitor in series with a 470 kilohm resistor?
+    A	47 000 seconds
+    B	470 seconds
+    C	221 seconds
+    D	221 000 seconds
+    > The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  470 microfarads times 0.470 megohm = 470 times 0.47 = 221 seconds.
+    A-1-1-10 (C) What is the time constant of a circuit having a 220 microfarad capacitor in series with a 470 kilohm resistor?
+    A	470 seconds
+    B	220 seconds
+    C	103 seconds
+    D	470 000 seconds
+    > The time constant in seconds equals R in ohms times C in farads:  the higher the resistance, the longer the time.  In multiplying microfarads and megohms, the prefixes cancel one another.  220 microfarads times 0.470 megohm = 220 times 0.47 = 103 seconds.
+    A-1-2-1 (C) What is the result of skin effect?
+    A	Thermal effects on the surface of the conductor increase impedance
+    B	Thermal effects on the surface of the conductor decrease impedance
+    C	As frequency increases, RF current flows in a thinner layer of the conductor, closer to the surface
+    D	As frequency decreases, RF current flows in a thinner layer of the conductor, closer to the surface
+    > Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+    A-1-2-2 (C) What effect causes most of an RF current to flow along the surface of a conductor?
+    A	Resonance effect
+    B	Layer effect
+    C	Skin effect
+    D	Piezoelectric effect
+    > Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+    A-1-2-3 (D) Where does almost all RF current flow in a conductor?
+    A	In a magnetic field in the centre of the conductor
+    B	In a magnetic field around the conductor
+    C	In the centre of the conductor
+    D	Along the surface of the conductor
+    > Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+    A-1-2-4 (B) Why does most of an RF current flow within a very thin layer under the conductor's surface?
+    A	Because of heating of the conductor's interior
+    B	Because of skin effect
+    C	Because the RF resistance of a conductor is much less than the DC resistance
+    D	Because a conductor has AC resistance due to self-inductance
+    > Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+    A-1-2-5 (D) Why is the resistance of a conductor different for RF currents than for direct currents?
+    A	Because of the Hertzberg effect
+    B	Because conductors are non-linear devices
+    C	Because the insulation conducts current at high frequencies
+    D	Because of skin effect
+    > Skin Effect is the tendency of AC to flow in an increasingly thinner layer at the surface of a conductor as frequency increases.
+    A-1-2-6 (D) What unit measures the ability of a capacitor to store electrical charge?
+    A	Coulomb
+    B	Watt
+    C	Volt
+    D	Farad
+    > Capacitors store energy in an electrostatic field.  The capacitance in farads is one factor influencing how much energy can be stored in a capacitor.  The coulomb is a quantity of electrons ( 6 times 10 exponent 18 ).  One farad accepts a charge of one coulomb when subjected to one volt.  The watt is a rate of doing work (one joule per second).  One volt, a force, moves one coulomb with one joule of energy.
+    A-1-2-7 (A) A wire has a current passing through it. Surrounding this wire there is:
+    A	an electromagnetic field
+    B	an electrostatic field
+    C	a cloud of electrons
+    D	a skin effect that diminishes with distance
+    > An electromagnetic field is the magnetic field created around a conductor carrying current.  A magnetic field is a space around a magnet or a conductor where a magnetic force is present.  A magnetic field is composed of magnetic lines of force.  An electrostatic field is the electric field present between objects with different static electrical charges.  An electric field is a space where an electrical charge exerts a force (attraction or repulsion) on other charges.
+    A-1-2-8 (C) In what direction is the magnetic field oriented about a conductor in relation to the direction of electron flow?
+    A	In the same direction as the current
+    B	In the direct opposite to the current
+    C	In the direction determined by the left-hand rule
+    D	In all directions
+    > The 'Left-hand Rule':  position the left hand with your thumb pointing in the direction of electron flow; encircle the conductor with the remaining fingers, the fingers point in the direction of the magnetic lines of force.  [ Using conventional current flow, this would become the Right-hand rule. ]
+    A-1-2-9 (A) What is the term for energy that is stored in an electromagnetic or electrostatic field?
+    A	Potential energy
+    B	Kinetic energy
+    C	Ampere-joules
+    D	Joule-coulombs
+    > Key word:  STORED.  Potential:  "capable of coming into being or action (Canadian Oxford)".  Kinetic:  "of or due to motion (Canadian Oxford)".
+    A-1-2-10 (A) Between the charged plates of a capacitor there is:
+    A	an electrostatic field
+    B	a magnetic field
+    C	a cloud of electrons
+    D	an electric current
+    > Voltage across a capacitor creates an electrostatic field between the plates.  An electrostatic field is the electric field present between objects with different static electrical charges.  An electric field is a space where an electrical charge exerts a force (attraction or repulsion) on other charges.
+    A-1-2-11 (B) Energy is stored within an inductor that is carrying a current. The amount of energy depends on this current, but it also depends on a property of the inductor. This property has the following unit:
+    A	watt
+    B	henry
+    C	coulomb
+    D	farad
+    > Inductors store energy in an electromagnetic field.  The inductance in henrys is one factor influencing how much energy can be stored in an inductor.  One henry produces one volt of counter EMF with current changing at a rate of one ampere per second.  The coulomb is a quantity of electrons ( 6 times 10 exponent 18 ).  One farad accepts a charge of one coulomb when subjected to one volt.  The watt is a rate of doing work (one joule per second).
+    A-1-3-1 (D) What is the resonant frequency of a series RLC circuit if R is 47 ohms, L is 50 microhenrys and C is 40 picofarads?
+    A	1.78 MHz
+    B	7.96 MHz
+    C	79.6 MHz
+    D	3.56 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  50 times 40 equals 2000 ;  The square root of 2000 is 44.7 ;  44.7 times 2 times 3.14 is 280.7 ;  1000 divided by 280.7 is 3.56 MHz.
+    A-1-3-2 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 40 microhenrys and C is 200 picofarads?
+    A	1.99 kHz
+    B	1.99 MHz
+    C	1.78 kHz
+    D	1.78 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  40 times 200 equals 8000 ;  The square root of 8000 is 89.4 ;  89.4 times 2 times 3.14 is 561.4 ;  1000 divided by 561.4 is 1.78 MHz.
+    A-1-3-3 (C) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 50 microhenrys and C is 10 picofarads?
+    A	3.18 MHz
+    B	3.18 kHz
+    C	7.12 MHz
+    D	7.12 kHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  50 times 10 equals 500 ;  The square root of 500 is 22.4 ;  22.4 times 2 times 3.14 is 140.7 ;  1000 divided by 140.7 is 7.11 MHz.
+    A-1-3-4 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 25 microhenrys and C is 10 picofarads?
+    A	63.7 MHz
+    B	10.1 kHz
+    C	63.7 kHz
+    D	10.1 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  25 times 10 equals 250 ;  The square root of 250 is 15.8 ;  15.8 times 2 times 3.14 is 99.2 ;  1000 divided by 99.2 is 10.08 MHz.
+    A-1-3-5 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 3 microhenrys and C is 40 picofarads?
+    A	13.1 MHz
+    B	13.1 kHz
+    C	14.5 kHz
+    D	14.5 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 40 equals 120 ;  The square root of 120 is 11 ;  11 times 2 times 3.14 is 69.1 ;  1000 divided by 69.1 is 14.47 MHz.
+    A-1-3-6 (D) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 4 microhenrys and C is 20 picofarads?
+    A	19.9 MHz
+    B	19.9 kHz
+    C	17.8 kHz
+    D	17.8 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  4 times 20 equals 80 ;  The square root of 80 is 8.9 ;  8.9 times 2 times 3.14 is 55.9 ;  1000 divided by 55.9 is 17.89 MHz.
+    A-1-3-7 (B) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 8 microhenrys and C is 7 picofarads?
+    A	2.13 MHz
+    B	21.3 MHz
+    C	28.4 MHz
+    D	2.84 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  8 times 7 equals 56 ;  The square root of 56 is 7.5 ;  7.5 times 2 times 3.14 is 47.1 ;  1000 divided by 47.1 is 21.23 MHz.
+    A-1-3-8 (B) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 3 microhenrys and C is 15 picofarads?
+    A	23.7 kHz
+    B	23.7 MHz
+    C	35.4 MHz
+    D	35.4 kHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 15 equals 45 ;  The square root of 45 is 6.7 ;  6.7 times 2 times 3.14 is 42.1 ;  1000 divided by 42.1 is 23.75 MHz.
+    A-1-3-9 (A) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 4 microhenrys and C is 8 picofarads?
+    A	28.1 MHz
+    B	49.7 MHz
+    C	49.7 kHz
+    D	28.1 kHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  4 times 8 equals 32 ;  The square root of 32 is 5.7 ;  5.7 times 2 times 3.14 is 35.8 ;  1000 divided by 35.8 is 27.93 MHz.
+    A-1-3-10 (A) What is the resonant frequency of a series RLC circuit, if R is 47 ohms, L is 1 microhenry and C is 9 picofarads?
+    A	53.1 MHz
+    B	5.31 MHz
+    C	17.7 MHz
+    D	1.77 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  1 times 9 equals 9 ;  The square root of 9 is 3 ;  3 times 2 times 3.14 is 18.8 ;  1000 divided by 18.8 is 53.19 MHz.
+    A-1-3-11 (C) What is the value of capacitance (C) in a series R-L-C circuit, if the circuit resonant frequency is 14.25 MHz and L is 2.84 microhenrys?
+    A	44 microfarads
+    B	2.2 picofarads
+    C	44 picofarads
+    D	2.2 microfarads
+    > Method A:  Reactances are equal at resonance.  XL = 2 times 3.14 times 14.25 times 2.84 = 254.2 ohms.  XC = 1 over ( 2 pi f C ).  Restating for f in megahertz and C in picofarads, XC = one million over 2 pi megahertz times picofarads.  Thus, C = one million over ( 2 pi f XC ) ;  2 times 3.14 times 14.25 times 254.2 = 22 748 ;   one million divided by 22 748 = 43.96 picofarads.  Method B:  at 14 MHz, C has to be in picofarads;  test the two answers in picofarads with "resonant frequency in megahertz equals 1000 over ( 2 pi times the square root of microhenrys times picofarads )".
+    A-1-4-1 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 1 microhenry and C is 10 picofarads?
+    A	50.3 MHz
+    B	15.9 kHz
+    C	50.3 kHz
+    D	15.9 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  1 times 10 equals 10 ;  The square root of 9 is 3.2 ;  3.2 times 2 times 3.14 is 20.1 ;  1000 divided by 20.1 is 49.75 MHz.
+    A-1-4-2 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 2 microhenrys and C is 15 picofarads?
+    A	29.1 kHz
+    B	5.31 MHz
+    C	5.31 kHz
+    D	29.1 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  2 times 15 equals 30 ;  The square root of 30 is 5.5 ;  5.5 times 2 times 3.14 is 34.5 ;  1000 divided by 34.5 is 28.99 MHz.
+    A-1-4-3 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 5 microhenrys and C is 9 picofarads?
+    A	3.54 kHz
+    B	23.7 MHz
+    C	23.7 kHz
+    D	3.54 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  5 times 9 equals 45 ;  The square root of 45 is 6.7 ;  6.7 times 2 times 3.14 is 42.1 ;  1000 divided by 42.1 is 23.75 MHz.
+    A-1-4-4 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 2 microhenrys and C is 30 picofarads?
+    A	20.5 MHz
+    B	2.65 MHz
+    C	2.65 kHz
+    D	20.5 kHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  2 times 30 equals 60 ;  The square root of 60 is 7.7 ;  7.7 times 2 times 3.14 is 48.4 ;  1000 divided by 48.4 is 20.66 MHz.
+    A-1-4-5 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 15 microhenrys and C is 5 picofarads?
+    A	18.4 kHz
+    B	18.4 MHz
+    C	2.12 kHz
+    D	2.12 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  15 times 5 equals 75 ;  The square root of 75 is 8.7 ;  8.7 times 2 times 3.14 is 54.6 ;  1000 divided by 54.6 is 18.32 MHz.
+    A-1-4-6 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 3 microhenrys and C is 40 picofarads?
+    A	1.33 kHz
+    B	1.33 MHz
+    C	14.5 kHz
+    D	14.5 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  3 times 40 equals 120 ;  The square root of 120 is 11 ;  11 times 2 times 3.14 is 69.1 ;  1000 divided by 69.1 is 14.47 MHz.
+    A-1-4-7 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 40 microhenrys and C is 6 picofarads?
+    A	6.63 MHz
+    B	6.63 kHz
+    C	10.3 kHz
+    D	10.3 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  40 times 6 equals 240 ;  The square root of 240 is 15.5 ;  15.5 times 2 times 3.14 is 97.3 ;  1000 divided by 97.3 is 10.28 MHz.
+    A-1-4-8 (D) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 10 microhenrys and C is 50 picofarads?
+    A	7.12 kHz
+    B	3.18 MHz
+    C	3.18 kHz
+    D	7.12 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  10 times 50 equals 500 ;  The square root of 500 is 22.4 ;  22.4 times 2 times 3.14 is 140.7 ;  1000 divided by 140.7 is 7.11 MHz.
+    A-1-4-9 (B) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 200 microhenrys and C is 10 picofarads?
+    A	7.96 kHz
+    B	3.56 MHz
+    C	3.56 kHz
+    D	7.96 MHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  200 times 10 equals 2000 ;  The square root of 2000 is 44.7 ;  44.7 times 2 times 3.14 is 280.7 ;  1000 divided by 280.7 is 3.56 MHz.
+    A-1-4-10 (A) What is the resonant frequency of a parallel RLC circuit if R is 4.7 kilohms, L is 90 microhenrys and C is 100 picofarads?
+    A	1.68 MHz
+    B	1.77 kHz
+    C	1.77 MHz
+    D	1.68 kHz
+    > Resonant frequency equals 1 over ( 2 pi times the square root of L times C ).  Restating for frequency in megahertz becomes 1000 over ( 2 pi times the square root of microhenrys times picofarads ).  90 times 100 equals 9000 ;  The square root of 9000 is 94.9 ;  94.9 times 2 times 3.14 is 596 ;  1000 divided by 596 is 1.68 MHz.
+    A-1-4-11 (B) What is the value of inductance (L) in a parallel RLC circuit, if the resonant frequency is 14.25 MHz and C is 44 picofarads?
+    A	0.353 microhenry
+    B	2.8 microhenrys
+    C	253.8 millihenrys
+    D	3.9 millihenrys
+    > Method A:  Reactances are equal at resonance.  XC = 1 over ( 2 pi f C ).  Restating for f in megahertz and C in picofarads, XC = one million over (2 pi times megahertz times picofarads).  XC = one million divided by ( 2 times 3.14 times 14.25 times 44 ) = 254 ohms.  With XL = 2 pi f L, L is XL divided by 2 pi f:  254 divided by ( 2 times 3.14 times 14.25 ) = 2.8 microhenrys.  Method B:  at 14 MHz, L has to be in microhenrys;  test the two answers in microhenrys with "resonant frequency in megahertz equals 1000 over ( 2 pi times the square root of microhenrys times picofarads )".
+    A-1-5-1 (A) What is the Q of a parallel RLC circuit, if it is resonant at 14.128 MHz, L is 2.7 microhenrys and R is 18 kilohms?
+    A	75.1
+    B	7.51
+    C	0.013
+    D	71.5
+    > Reactance = 2 pi f L = 2 times 3.14 times 14.128 times 2.7 = 240 ( the mega in megahertz cancels the micro in microhenrys).  Q = 18 000 divided by 240 = 75 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-2 (A) What is the Q of a parallel RLC circuit, if it is resonant at 14.128 MHz, L is 4.7 microhenrys and R is 18 kilohms?
+    A	43.1
+    B	13.3
+    C	0.023
+    D	4.31
+    > Reactance = 2 pi f L = 2 times 3.14 times 14.128 times 4.7 = 417  ( the mega in megahertz cancels the micro in microhenrys).  Q = 18 000 divided by 417 = 43 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-3 (A) What is the Q of a parallel RLC circuit, if it is resonant at 4.468 MHz, L is 47 microhenrys and R is 180 ohms?
+    A	0.136
+    B	7.35
+    C	0.00735
+    D	13.3
+    > Reactance = 2 pi f L = 2 times 3.14 times 4.468 times 47 = 1319  ( the mega in megahertz cancels the micro in microhenrys).  Q = 180 divided by 1319 = 0.136 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-4 (B) What is the Q of a parallel RLC circuit, if it is resonant at 14.225 MHz, L is 3.5 microhenrys and R is 10 kilohms?
+    A	71.5
+    B	31.9
+    C	7.35
+    D	0.0319
+    > Reactance = 2 pi f L = 2 times 3.14 times 14.225 times 3.5 = 313 ( the mega in megahertz cancels the micro in microhenrys).  Q = 10 000 divided by 313 = 31.9 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-5 (A) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 8.2 microhenrys and R is 1 kilohm?
+    A	2.73
+    B	36.8
+    C	0.368
+    D	0.273
+    > Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 8.2 = 367 ( the mega in megahertz cancels the micro in microhenrys).  Q = 1000 divided by 367 = 2.7 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-6 (C) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 10.1 microhenrys and R is 100 ohms?
+    A	0.00452
+    B	4.52
+    C	0.221
+    D	22.1
+    > Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 10.1 = 452 ( the mega in megahertz cancels the micro in microhenrys).  Q = 100 divided by 452 = 0.22 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-7 (D) What is the Q of a parallel RLC circuit, if it is resonant at 7.125 MHz, L is 12.6 microhenrys and R is 22 kilohms?
+    A	22.1
+    B	0.0256
+    C	25.6
+    D	39
+    > Reactance = 2 pi f L = 2 times 3.14 times 7.125 times 12.6 = 564 ( the mega in megahertz cancels the micro in microhenrys).  Q = 22 000 divided by 564 = 39 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-8 (D) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 3 microhenrys and R is 2.2 kilohms?
+    A	25.6
+    B	31.1
+    C	0.031
+    D	32.2
+    > Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 3 = 68 ( the mega in megahertz cancels the micro in microhenrys).  Q = 2200 divided by 68 = 32.3 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-9 (B) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 42 microhenrys and R is 220 ohms?
+    A	0.00435
+    B	0.23
+    C	2.3
+    D	4.35
+    > Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 42 = 956 ( the mega in megahertz cancels the micro in microhenrys).  Q = 220 divided by 956 = 0.23 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-10 (D) What is the Q of a parallel RLC circuit, if it is resonant at 3.625 MHz, L is 43 microhenrys and R is 1.8 kilohms?
+    A	0.543
+    B	54.3
+    C	23
+    D	1.84
+    > Reactance = 2 pi f L = 2 times 3.14 times 3.625 times 43 = 979 ( the mega in megahertz cancels the micro in microhenrys).  Q = 1800 divided by 979 = 1.84 .  In a PARALLEL circuit loaded by a resistor, Q = Resistance divided by Reactance:  the higher the parallel resistance, the lesser the effect on the response curve.  Parallel resistance lowers the Q of a parallel tuned circuit.  A parallel Damping Resistor is used to increase bandwidth.
+    A-1-5-11 (B) Why is a resistor often included in a parallel resonant circuit?
+    A	To increase the Q and decrease bandwidth
+    B	To decrease the Q and increase the bandwidth
+    C	To increase the Q and decrease the skin effect
+    D	To decrease the Q and increase the resonant frequency
+    > A Damping Resistor can be placed across a parallel resonant circuit, or in series with a series resonant circuit, to lower the Q.  Reducing the Quality factor increases bandwidth.
 
-' --  --  --  --
+    ' --  --  --  --
 
-A-2-11-1 (A) What is a crystal lattice filter?
-A	A filter with narrow bandwidth and steep skirts made using quartz crystals
-B	A filter with wide bandwidth and shallow skirts made using quartz crystals
-C	An audio filter made with four quartz crystals that resonate at 1 kHz intervals
-D	A power supply filter made with interlaced quartz crystals
-> A filter with narrow bandwidth and steep skirts made with quartz crystals.  "Lattice: a structure of crossed laths with spaces between, used as a screen or fence."  The frequency separation between the crystals sets the bandwidth and the response shape.  Crystal lattice filter:  uses two matched pairs of series crystals and a higher-frequency matched pair of shunt crystals in a balanced configuration.  Half-lattice crystal filter: uses two crystals in an unbalanced configuration.  Such filters can be cascaded.  A 'Crystal Gate' uses a single crystal.
-A-2-11-2 (C) What factor determines the bandwidth and response shape of a crystal lattice filter?
-A	The gain of the RF stage following the filter
-B	The amplitude of the signals passing through the filter
-C	The relative frequencies of the individual crystals
-D	The centre frequency chosen for the filter
-> A filter with narrow bandwidth and steep skirts made with quartz crystals.  "Lattice: a structure of crossed laths with spaces between, used as a screen or fence."  The frequency separation between the crystals sets the bandwidth and the response shape.  Crystal lattice filter:  uses two matched pairs of series crystals and a higher-frequency matched pair of shunt crystals in a balanced configuration.  Half-lattice crystal filter: uses two crystals in an unbalanced configuration.  Such filters can be cascaded.  A 'Crystal Gate' uses a single crystal.
-A-2-11-3 (A) For single-sideband phone emissions, what would be the bandwidth of a good crystal lattice filter?
-A	2.4 kHz
-B	15 kHz
-C	500 Hz
-D	6 kHz
-> Speech frequencies on a communication-grade SSB voice channel range from 300 hertz to 3000 hertz and thus require a bandwidth of 2.7 kHz;  2.1 kHz is a good compromise between fidelity and selectivity.  15 kHz is the bandwidth of FM, 6 kHz is for AM, 500 Hz is a common filter width for CW.
-A-2-11-5 (C) A quartz crystal filter is superior to an LC filter for narrow bandpass applications because of the:
-A	LC circuit's high Q
-B	crystal's simplicity
-C	crystal's high Q
-D	crystal's low Q
-> Piezoelectric crystals behave like tuned circuits with an extremely high "Q" ("Quality Factor", in excess of 25 000).  Their accuracy and stability are outstanding.
-A-2-11-6 (D) Piezoelectricity is generated by:
-A	touching crystals with magnets
-B	adding impurities to a crystal
-C	moving a magnet near a crystal
-D	deforming certain crystals
-> The piezoelectric property of quartz is two-fold: apply mechanical stress to a crystal and it produces a small electrical field;  subject quartz to an electrical field and the crystal changes dimensions slightly.  Crystals are capable of resonance either at a fundamental frequency depending on their physical dimensions or at overtone frequencies near odd-integer multiples (3rd, 5th, 7th, etc.).  Piezoelectric crystals can serve as filters because of their extremely high "Q" (> 25 000) or as stable, noise-free and accurate frequency references.
-A-2-11-7 (B) Electrically, what does a crystal look like?
-A	A variable tuned circuit
-B	A very high Q tuned circuit
-C	A very low Q tuned circuit
-D	A variable capacitance
-> Piezoelectric crystals behave like tuned circuits with an extremely high "Q" ("Quality Factor", in excess of 25 000).  Their accuracy and stability are outstanding.
-A-2-11-10 (D) Crystal oscillators, filters and microphones depend upon which principle?
-A	Hertzberg effect
-B	Ferro-resonance
-C	Overtone effect
-D	Piezoelectric effect
-> The piezoelectric property of quartz (generating electricity under mechanical stress, bending when subjected to electric field) is used in crystal-based oscillators, radio-frequency crystal filters, such as the lattice filter, and crystal microphones.  The Active Filter is based on an active device, generally an operational amplifier, and a network of resistors and capacitors.
-A-2-11-11 (C) Crystals are not applicable to which of the following?
-A	Lattice filters
-B	Oscillators
-C	Active filters
-D	Microphones
-> The piezoelectric property of quartz (generating electricity under mechanical stress, bending when subjected to electric field) is used in crystal-based oscillators, radio-frequency crystal filters, such as the lattice filter, and crystal microphones.  The Active Filter is based on an active device, generally an operational amplifier, and a network of resistors and capacitors.
+    A-2-11-1 (A) What is a crystal lattice filter?
+    A	A filter with narrow bandwidth and steep skirts made using quartz crystals
+    B	A filter with wide bandwidth and shallow skirts made using quartz crystals
+    C	An audio filter made with four quartz crystals that resonate at 1 kHz intervals
+    D	A power supply filter made with interlaced quartz crystals
+    > A filter with narrow bandwidth and steep skirts made with quartz crystals.  "Lattice: a structure of crossed laths with spaces between, used as a screen or fence."  The frequency separation between the crystals sets the bandwidth and the response shape.  Crystal lattice filter:  uses two matched pairs of series crystals and a higher-frequency matched pair of shunt crystals in a balanced configuration.  Half-lattice crystal filter: uses two crystals in an unbalanced configuration.  Such filters can be cascaded.  A 'Crystal Gate' uses a single crystal.
+    A-2-11-2 (C) What factor determines the bandwidth and response shape of a crystal lattice filter?
+    A	The gain of the RF stage following the filter
+    B	The amplitude of the signals passing through the filter
+    C	The relative frequencies of the individual crystals
+    D	The centre frequency chosen for the filter
+    > A filter with narrow bandwidth and steep skirts made with quartz crystals.  "Lattice: a structure of crossed laths with spaces between, used as a screen or fence."  The frequency separation between the crystals sets the bandwidth and the response shape.  Crystal lattice filter:  uses two matched pairs of series crystals and a higher-frequency matched pair of shunt crystals in a balanced configuration.  Half-lattice crystal filter: uses two crystals in an unbalanced configuration.  Such filters can be cascaded.  A 'Crystal Gate' uses a single crystal.
+    A-2-11-3 (A) For single-sideband phone emissions, what would be the bandwidth of a good crystal lattice filter?
+    A	2.4 kHz
+    B	15 kHz
+    C	500 Hz
+    D	6 kHz
+    > Speech frequencies on a communication-grade SSB voice channel range from 300 hertz to 3000 hertz and thus require a bandwidth of 2.7 kHz;  2.1 kHz is a good compromise between fidelity and selectivity.  15 kHz is the bandwidth of FM, 6 kHz is for AM, 500 Hz is a common filter width for CW.
+    A-2-11-5 (C) A quartz crystal filter is superior to an LC filter for narrow bandpass applications because of the:
+    A	LC circuit's high Q
+    B	crystal's simplicity
+    C	crystal's high Q
+    D	crystal's low Q
+    > Piezoelectric crystals behave like tuned circuits with an extremely high "Q" ("Quality Factor", in excess of 25 000).  Their accuracy and stability are outstanding.
+    A-2-11-6 (D) Piezoelectricity is generated by:
+    A	touching crystals with magnets
+    B	adding impurities to a crystal
+    C	moving a magnet near a crystal
+    D	deforming certain crystals
+    > The piezoelectric property of quartz is two-fold: apply mechanical stress to a crystal and it produces a small electrical field;  subject quartz to an electrical field and the crystal changes dimensions slightly.  Crystals are capable of resonance either at a fundamental frequency depending on their physical dimensions or at overtone frequencies near odd-integer multiples (3rd, 5th, 7th, etc.).  Piezoelectric crystals can serve as filters because of their extremely high "Q" (> 25 000) or as stable, noise-free and accurate frequency references.
+    A-2-11-7 (B) Electrically, what does a crystal look like?
+    A	A variable tuned circuit
+    B	A very high Q tuned circuit
+    C	A very low Q tuned circuit
+    D	A variable capacitance
+    > Piezoelectric crystals behave like tuned circuits with an extremely high "Q" ("Quality Factor", in excess of 25 000).  Their accuracy and stability are outstanding.
+    A-2-11-10 (D) Crystal oscillators, filters and microphones depend upon which principle?
+    A	Hertzberg effect
+    B	Ferro-resonance
+    C	Overtone effect
+    D	Piezoelectric effect
+    > The piezoelectric property of quartz (generating electricity under mechanical stress, bending when subjected to electric field) is used in crystal-based oscillators, radio-frequency crystal filters, such as the lattice filter, and crystal microphones.  The Active Filter is based on an active device, generally an operational amplifier, and a network of resistors and capacitors.
+    A-2-11-11 (C) Crystals are not applicable to which of the following?
+    A	Lattice filters
+    B	Oscillators
+    C	Active filters
+    D	Microphones
+    > The piezoelectric property of quartz (generating electricity under mechanical stress, bending when subjected to electric field) is used in crystal-based oscillators, radio-frequency crystal filters, such as the lattice filter, and crystal microphones.  The Active Filter is based on an active device, generally an operational amplifier, and a network of resistors and capacitors.
 
-' --  --  --  --
+    ' --  --  --  --
 
-A-2-12-1 (D) What are the three general groupings of filters?
-A	Hartley, Colpitts and Pierce
-B	Audio, radio and capacitive
-C	Inductive, capacitive and resistive
-D	High-pass, low-pass and band-pass
-> There are 4 categories of filters:  high-pass, low-pass, band-pass and band-stop.  Hartley, Colpitts and Pierce are oscillator configurations.  "Capacitive" is not a range of frequencies like audio or radio.  Resistors do not discriminate frequency.
-A-2-12-2 (C) What are the distinguishing features of a Butterworth filter?
-A	It only requires conductors
-B	It only requires capacitors
-C	It has a maximally flat response over its pass-band
-D	The product of its series and shunt-element impedances is a constant for all frequencies
-> The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
-A-2-12-3 (B) Which filter type is described as having ripple in the passband and a sharp cutoff?
-A	A Butterworth filter
-B	A Chebyshev filter
-C	An active LC filter
-D	A passive op-amp filter
-> The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
-A-2-12-4 (B) What are the distinguishing features of a Chebyshev filter?
-A	It has a maximally flat response in the passband
-B	It allows ripple in the passband in return for steeper skirts
-C	It requires only inductors
-D	It requires only capacitors
-> The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
-A-2-12-5 (B) Resonant cavities are used by amateurs as a:
-A	high-pass filter above 30 MHz
-B	narrow bandpass filter at VHF and higher frequencies
-C	power line filter
-D	low-pass filter below 30 MHz
-> The quarter wavelength Resonant Cavity behaves like a very high "Q" filter.  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
-A-2-12-6 (D) On VHF and above, 1/4 wavelength coaxial cavities are used to give protection from high-level signals. For a frequency of approximately 50 MHz, the diameter of such a device would be about 10 cm (4 in). What would be its approximate length?
-A	0.6 metres (2 ft)
-B	2.4 metres (8 ft)
-C	3.7 metres (12 ft)
-D	1.5 metres (5 ft)
-> The quarter wavelength Resonant Cavity behaves like a very high "Q" filter (around 3000).  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
-A-2-12-7 (C) A device which helps with receiver overload and spurious responses at VHF, UHF and above may be installed in the receiver front end. It is called a:
-A	directional coupler
-B	duplexer
-C	helical resonator
-D	diplexer
-> The Helical Resonator, based on the concept of a resonant helically-wound section of transmission line within a shielded enclosure, achieves selectivity comparable to the quarter-wave resonant cavity but with a substantial size reduction.
-A-2-12-8 (C) Where you require bandwidth at VHF and higher frequencies about equal to a television channel, a good choice of filter is the:
-A	Butterworth
-B	Chebyshev
-C	none of the other answers
-D	resonant cavity
-> The bandwidth of a fast-scan TV channel is 6 MHz;  that is much too wide for any of the filters listed.
-A-2-12-9 (B) What is the primary advantage of the Butterworth filter over the Chebyshev filter?
-A	It requires only capacitors
-B	It has maximally flat response over its passband
-C	It allows ripple in the passband in return for steeper skirts
-D	It requires only inductors
-> The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
-A-2-12-10 (C) What is the primary advantage of the Chebyshev filter over the Butterworth filter?
-A	It requires only inductors
-B	It has maximally flat response over the passband
-C	It allows ripple in the passband in return for steeper skirts
-D	It requires only capacitors
-> The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
-A-2-12-11 (D) Which of the following filter types is not suitable for use at audio and low radio frequencies?
-A	Elliptical
-B	Chebyshev
-C	Butterworth
-D	Cavity
-> The quarter wavelength Resonant Cavity behaves like a very high "Q" filter.  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
+    A-2-12-1 (D) What are the three general groupings of filters?
+    A	Hartley, Colpitts and Pierce
+    B	Audio, radio and capacitive
+    C	Inductive, capacitive and resistive
+    D	High-pass, low-pass and band-pass
+    > There are 4 categories of filters:  high-pass, low-pass, band-pass and band-stop.  Hartley, Colpitts and Pierce are oscillator configurations.  "Capacitive" is not a range of frequencies like audio or radio.  Resistors do not discriminate frequency.
+    A-2-12-2 (C) What are the distinguishing features of a Butterworth filter?
+    A	It only requires conductors
+    B	It only requires capacitors
+    C	It has a maximally flat response over its pass-band
+    D	The product of its series and shunt-element impedances is a constant for all frequencies
+    > The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
+    A-2-12-3 (B) Which filter type is described as having ripple in the passband and a sharp cutoff?
+    A	A Butterworth filter
+    B	A Chebyshev filter
+    C	An active LC filter
+    D	A passive op-amp filter
+    > The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
+    A-2-12-4 (B) What are the distinguishing features of a Chebyshev filter?
+    A	It has a maximally flat response in the passband
+    B	It allows ripple in the passband in return for steeper skirts
+    C	It requires only inductors
+    D	It requires only capacitors
+    > The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
+    A-2-12-5 (B) Resonant cavities are used by amateurs as a:
+    A	high-pass filter above 30 MHz
+    B	narrow bandpass filter at VHF and higher frequencies
+    C	power line filter
+    D	low-pass filter below 30 MHz
+    > The quarter wavelength Resonant Cavity behaves like a very high "Q" filter.  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
+    A-2-12-6 (D) On VHF and above, 1/4 wavelength coaxial cavities are used to give protection from high-level signals. For a frequency of approximately 50 MHz, the diameter of such a device would be about 10 cm (4 in). What would be its approximate length?
+    A	0.6 metres (2 ft)
+    B	2.4 metres (8 ft)
+    C	3.7 metres (12 ft)
+    D	1.5 metres (5 ft)
+    > The quarter wavelength Resonant Cavity behaves like a very high "Q" filter (around 3000).  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
+    A-2-12-7 (C) A device which helps with receiver overload and spurious responses at VHF, UHF and above may be installed in the receiver front end. It is called a:
+    A	directional coupler
+    B	duplexer
+    C	helical resonator
+    D	diplexer
+    > The Helical Resonator, based on the concept of a resonant helically-wound section of transmission line within a shielded enclosure, achieves selectivity comparable to the quarter-wave resonant cavity but with a substantial size reduction.
+    A-2-12-8 (C) Where you require bandwidth at VHF and higher frequencies about equal to a television channel, a good choice of filter is the:
+    A	Butterworth
+    B	Chebyshev
+    C	none of the other answers
+    D	resonant cavity
+    > The bandwidth of a fast-scan TV channel is 6 MHz;  that is much too wide for any of the filters listed.
+    A-2-12-9 (B) What is the primary advantage of the Butterworth filter over the Chebyshev filter?
+    A	It requires only capacitors
+    B	It has maximally flat response over its passband
+    C	It allows ripple in the passband in return for steeper skirts
+    D	It requires only inductors
+    > The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
+    A-2-12-10 (C) What is the primary advantage of the Chebyshev filter over the Butterworth filter?
+    A	It requires only inductors
+    B	It has maximally flat response over the passband
+    C	It allows ripple in the passband in return for steeper skirts
+    D	It requires only capacitors
+    > The Butterworth class of filters exhibit "maximally flat response": smooth response, no passband ripple.  Their frequency response is as flat as mathematically possible in the passband, no bumps or variations (ripple) [first described by British engineer Stephen Butterworth].  The Chebyshev class of filters [in honour of Pafnuty Chebyshev, a Russian mathematician] have steeper cutoff slopes and more ripple than Butterworth filters.  Elliptic filters are sharper than the previous two.  Here is a mnemonic trick:  "The Butterworth's response is smooth as butter".
+    A-2-12-11 (D) Which of the following filter types is not suitable for use at audio and low radio frequencies?
+    A	Elliptical
+    B	Chebyshev
+    C	Butterworth
+    D	Cavity
+    > The quarter wavelength Resonant Cavity behaves like a very high "Q" filter.  Due to their physical size, they become practical only at VHF frequencies:  at 50 MHz (6 m), the length of the cavity is 1.5 m (one quarter wavelength).
 
-' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-{L03} Semiconductors.
+    ' - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    {L03} Semiconductors.
 
-A-2-1-1 (D) What two elements widely used in semiconductor devices exhibit both metallic and non-metallic characteristics?
-A	Galena and germanium
-B	Galena and bismuth
-C	Silicon and gold
-D	Silicon and germanium
-> The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
-A-2-1-2 (B) In what application is gallium-arsenide used as a semiconductor material in preference to germanium or silicon?
-A	In bipolar transistors
-B	At microwave frequencies
-C	In high-power circuits
-D	At very low frequencies
-> Gallium arsenide (GaAs) devices can work at higher frequencies with less noise than their silicon counterparts.
-A-2-1-3 (D) What type of semiconductor material contains fewer free electrons than pure germanium or silicon crystals?
-A	N-type
-B	Bipolar type
-C	Superconductor type
-D	P-type
-> Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
-A-2-1-4 (C) What type of semiconductor material contains more free electrons than pure germanium or silicon crystals?
-A	Bipolar
-B	Superconductor
-C	N-type
-D	P-type
-> Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
-A-2-1-5 (D) What are the majority charge carriers in P-type semiconductor material?
-A	Free electrons
-B	Free protons
-C	Free neutrons
-D	Holes
-> P-Type material was robbed of free electrons, positive 'holes' are the electric charge carriers.  N-Type material comprises extra electrons which serve as the electric charge carriers.
-A-2-1-6 (B) What are the majority charge carriers in N-type semiconductor material?
-A	Free neutrons
-B	Free electrons
-C	Holes
-D	Free protons
-> N-Type material comprises extra electrons which serve as the electric charge carriers.  P-Type material was robbed of free electrons, positive 'holes' are the electric charge carriers.
-A-2-1-7 (A) Silicon, in its pure form, is:
-A	an insulator
-B	a superconductor
-C	a semiconductor
-D	a conductor
-> The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
-A-2-1-8 (B) An element which is sometimes an insulator and sometimes a conductor is called a:
-A	P-type conductor
-B	semiconductor
-C	intrinsic conductor
-D	N-type conductor
-> The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
-A-2-1-9 (B) Which of the following materials is used to make a semiconductor?
-A	Sulphur
-B	Silicon
-C	Tantalum
-D	Copper
-> The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
-A-2-1-10 (D) Substances such as silicon in a pure state are usually good:
-A	conductors
-B	tuned circuits
-C	inductors
-D	insulators
-> The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
-A-2-1-11 (C) A semiconductor is said to be doped when it has added to it small quantities of:
-A	ions
-B	electrons
-C	impurities
-D	protons
-> Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
-A-2-2-1 (C) What is the principal characteristic of a Zener diode?
-A	A negative resistance region
-B	An internal capacitance that varies with the applied voltage
-C	A constant voltage under conditions of varying current
-D	A constant current under conditions of varying voltage
-> Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
-A-2-2-2 (C) What type of semiconductor diode varies its internal capacitance as the voltage applied to its terminals varies?
-A	Silicon-controlled rectifier
-B	Hot-carrier (Schottky)
-C	Varactor
-D	Zener
-> Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
-A-2-2-3 (D) What is a common use for the hot-carrier (Schottky) diode?
-A	As balanced mixers in FM generation
-B	As a variable capacitance in an automatic frequency control (AFC) circuit
-C	As a constant voltage reference in a power supply
-D	As VHF and UHF mixers and detectors
-> Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
-A-2-2-4 (C) What limits the maximum forward current in a junction diode?
-A	Back EMF
-B	Peak inverse voltage
-C	Junction temperature
-D	Forward voltage
-> Diodes conduct in one direction only:  under forward bias, maximum forward current is limited by acceptable junction temperature.  The voltage drop across the junction (volts) multiplied by the forward current (amperes) gives rise to heat dissipation (watts).  Surviving a reverse bias is determined by the Peak Inverse Voltage (PIV) rating.
-A-2-2-5 (D) What are the major ratings for junction diodes?
-A	Maximum reverse current and capacitance
-B	Maximum forward current and capacitance
-C	Maximum reverse current and peak inverse voltage (PIV)
-D	Maximum forward current and peak inverse voltage (PIV)
-> Diodes conduct in one direction only:  under forward bias, maximum forward current is limited by acceptable junction temperature.  The voltage drop across the junction (volts) multiplied by the forward current (amperes) gives rise to heat dissipation (watts).  Surviving a reverse bias is determined by the Peak Inverse Voltage (PIV) rating.
-A-2-2-6 (A) Structurally, what are the two main categories of semiconductor diodes?
-A	Junction and point contact
-B	Vacuum and point contact
-C	Electrolytic and point contact
-D	Electrolytic and junction
-> Point-contact diodes, where a small metal whisker touches the semiconductor material, exhibit low capacitance and serve as RF detectors or UHF mixers.  Junction diodes are formed with adjacent blocks of P and N material;  these are usable from DC to microwave.
-A-2-2-7 (D) What is a common use for point contact diodes?
-A	As a constant current source
-B	As a constant voltage source
-C	As a high voltage rectifier
-D	As an RF detector
-> Point-contact diodes, where a small metal whisker touches the semiconductor material, exhibit low capacitance and serve as RF detectors or UHF mixers.  Junction diodes are formed with adjacent blocks of P and N material;  these are usable from DC to microwave.
-A-2-2-8 (D) What is one common use for PIN diodes?
-A	As a constant current source
-B	As a high voltage rectifier
-C	As a constant voltage source
-D	As an RF switch
-> Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
-A-2-2-9 (D) A Zener diode is a device used to:
-A	dissipate voltage
-B	decrease current
-C	increase current
-D	regulate voltage
-> Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
-A-2-2-10 (D) If a Zener diode rated at 10 V and 50 watts was operated at maximum dissipation rating, it would conduct ____ amperes:
-A	50
-B	0.05
-C	0.5
-D	5
-> P = E times I.  Watts = volts times amperes.  Thus, I = P divided by E:  50 watts divided by 10 volts = 5 amperes.
-A-2-2-11 (C) The power-handling capability of most Zener diodes is rated at 25 degrees C or approximately room temperature. If the temperature is increased, the power handling capability is:
-A	much greater
-B	slightly greater
-C	less
-D	the same
-> Heat flows from hot to cold.  If ambient temperature is higher, less heat can be drained from the junction, the junction will reach maximum safe operating temperature quicker.
+    A-2-1-1 (D) What two elements widely used in semiconductor devices exhibit both metallic and non-metallic characteristics?
+    A	Galena and germanium
+    B	Galena and bismuth
+    C	Silicon and gold
+    D	Silicon and germanium
+    > The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
+    A-2-1-2 (B) In what application is gallium-arsenide used as a semiconductor material in preference to germanium or silicon?
+    A	In bipolar transistors
+    B	At microwave frequencies
+    C	In high-power circuits
+    D	At very low frequencies
+    > Gallium arsenide (GaAs) devices can work at higher frequencies with less noise than their silicon counterparts.
+    A-2-1-3 (D) What type of semiconductor material contains fewer free electrons than pure germanium or silicon crystals?
+    A	N-type
+    B	Bipolar type
+    C	Superconductor type
+    D	P-type
+    > Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
+    A-2-1-4 (C) What type of semiconductor material contains more free electrons than pure germanium or silicon crystals?
+    A	Bipolar
+    B	Superconductor
+    C	N-type
+    D	P-type
+    > Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
+    A-2-1-5 (D) What are the majority charge carriers in P-type semiconductor material?
+    A	Free electrons
+    B	Free protons
+    C	Free neutrons
+    D	Holes
+    > P-Type material was robbed of free electrons, positive 'holes' are the electric charge carriers.  N-Type material comprises extra electrons which serve as the electric charge carriers.
+    A-2-1-6 (B) What are the majority charge carriers in N-type semiconductor material?
+    A	Free neutrons
+    B	Free electrons
+    C	Holes
+    D	Free protons
+    > N-Type material comprises extra electrons which serve as the electric charge carriers.  P-Type material was robbed of free electrons, positive 'holes' are the electric charge carriers.
+    A-2-1-7 (A) Silicon, in its pure form, is:
+    A	an insulator
+    B	a superconductor
+    C	a semiconductor
+    D	a conductor
+    > The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
+    A-2-1-8 (B) An element which is sometimes an insulator and sometimes a conductor is called a:
+    A	P-type conductor
+    B	semiconductor
+    C	intrinsic conductor
+    D	N-type conductor
+    > The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
+    A-2-1-9 (B) Which of the following materials is used to make a semiconductor?
+    A	Sulphur
+    B	Silicon
+    C	Tantalum
+    D	Copper
+    > The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
+    A-2-1-10 (D) Substances such as silicon in a pure state are usually good:
+    A	conductors
+    B	tuned circuits
+    C	inductors
+    D	insulators
+    > The most basic semiconductor materials are silicon and germanium.  Atoms in metallic elements hold their peripheral electrons loosely, such materials make good conductors.  Peripheral electrons in non-metallic elements are tightly bound, such materials are insulators.  Germanium and silicon fall somewhere between the two categories but are mostly insulators when pure.  Doping with impurities increases their conductivity.
+    A-2-1-11 (C) A semiconductor is said to be doped when it has added to it small quantities of:
+    A	ions
+    B	electrons
+    C	impurities
+    D	protons
+    > Pure germanium and silicon are doped with impurities to produce the basic semiconductor materials.  Certain doping impurities add free electrons, forming N-Type material while others accept electrons, thus creating 'holes' found in P-Type material.
+    A-2-2-1 (C) What is the principal characteristic of a Zener diode?
+    A	A negative resistance region
+    B	An internal capacitance that varies with the applied voltage
+    C	A constant voltage under conditions of varying current
+    D	A constant current under conditions of varying voltage
+    > Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+    A-2-2-2 (C) What type of semiconductor diode varies its internal capacitance as the voltage applied to its terminals varies?
+    A	Silicon-controlled rectifier
+    B	Hot-carrier (Schottky)
+    C	Varactor
+    D	Zener
+    > Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+    A-2-2-3 (D) What is a common use for the hot-carrier (Schottky) diode?
+    A	As balanced mixers in FM generation
+    B	As a variable capacitance in an automatic frequency control (AFC) circuit
+    C	As a constant voltage reference in a power supply
+    D	As VHF and UHF mixers and detectors
+    > Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+    A-2-2-4 (C) What limits the maximum forward current in a junction diode?
+    A	Back EMF
+    B	Peak inverse voltage
+    C	Junction temperature
+    D	Forward voltage
+    > Diodes conduct in one direction only:  under forward bias, maximum forward current is limited by acceptable junction temperature.  The voltage drop across the junction (volts) multiplied by the forward current (amperes) gives rise to heat dissipation (watts).  Surviving a reverse bias is determined by the Peak Inverse Voltage (PIV) rating.
+    A-2-2-5 (D) What are the major ratings for junction diodes?
+    A	Maximum reverse current and capacitance
+    B	Maximum forward current and capacitance
+    C	Maximum reverse current and peak inverse voltage (PIV)
+    D	Maximum forward current and peak inverse voltage (PIV)
+    > Diodes conduct in one direction only:  under forward bias, maximum forward current is limited by acceptable junction temperature.  The voltage drop across the junction (volts) multiplied by the forward current (amperes) gives rise to heat dissipation (watts).  Surviving a reverse bias is determined by the Peak Inverse Voltage (PIV) rating.
+    A-2-2-6 (A) Structurally, what are the two main categories of semiconductor diodes?
+    A	Junction and point contact
+    B	Vacuum and point contact
+    C	Electrolytic and point contact
+    D	Electrolytic and junction
+    > Point-contact diodes, where a small metal whisker touches the semiconductor material, exhibit low capacitance and serve as RF detectors or UHF mixers.  Junction diodes are formed with adjacent blocks of P and N material;  these are usable from DC to microwave.
+    A-2-2-7 (D) What is a common use for point contact diodes?
+    A	As a constant current source
+    B	As a constant voltage source
+    C	As a high voltage rectifier
+    D	As an RF detector
+    > Point-contact diodes, where a small metal whisker touches the semiconductor material, exhibit low capacitance and serve as RF detectors or UHF mixers.  Junction diodes are formed with adjacent blocks of P and N material;  these are usable from DC to microwave.
+    A-2-2-8 (D) What is one common use for PIN diodes?
+    A	As a constant current source
+    B	As a high voltage rectifier
+    C	As a constant voltage source
+    D	As an RF switch
+    > Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+    A-2-2-9 (D) A Zener diode is a device used to:
+    A	dissipate voltage
+    B	decrease current
+    C	increase current
+    D	regulate voltage
+    > Zener diodes maintain a constant voltage across a range of currents.  The Varactor (or Varicap) is a diode used under reverse bias as a "voltage-variable capacitor".  Hot-carrier (or Schottky-barrier) diodes have lower forward voltage and good high-frequency response:  their speed make them useful in Very High Frequency mixers or detectors;  in power circuits, they are excellent rectifiers in switching power supplies.  PIN diodes (with a layer of undoped or lightly doped 'intrinsic' silicon between the P and N regions) are used as switches or attenuators.
+    A-2-2-10 (D) If a Zener diode rated at 10 V and 50 watts was operated at maximum dissipation rating, it would conduct ____ amperes:
+    A	50
+    B	0.05
+    C	0.5
+    D	5
+    > P = E times I.  Watts = volts times amperes.  Thus, I = P divided by E:  50 watts divided by 10 volts = 5 amperes.
+    A-2-2-11 (C) The power-handling capability of most Zener diodes is rated at 25 degrees C or approximately room temperature. If the temperature is increased, the power handling capability is:
+    A	much greater
+    B	slightly greater
+    C	less
+    D	the same
+    > Heat flows from hot to cold.  If ambient temperature is higher, less heat can be drained from the junction, the junction will reach maximum safe operating temperature quicker.
 A-2-3-1 (C) What is the alpha of a bipolar transistor?
 A	The change of base current with respect to collector current
 B	The change of collector current with respect to gate current
