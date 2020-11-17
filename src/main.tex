@@ -342,17 +342,39 @@
         \begin{description}
             \item[In a `common base' configuration] where the Emitter is the input and the Collector is the output, the Alpha factor (or common base forward current transfer ratio) is a ratio of a change in Collector current to the corresponding change in Emitter current.
             \item[In a `common emitter' configuration] where the Base is the input and the Collector is the output, the Beta factor (or common emitter forward current gain) is a ratio of a change in Collector current to a given change in Base current.
-            The Beta factor applies equally to a Common Collector configuration where the Base is also the input.
         \end{description}
+
+        The Beta factor applies equally to a Common Collector configuration where the Base is also the input.
+
         \begin{itemize}
-            \item \textbf{The change of collector current with respect to emitter current} is the alpha of a bipolar transistor.
-            \item \textbf{The change of collector current with respect to base current} is the beta of a bipolar transistor.
+            \item The alpha of a bipolar transistor is \textbf{the change of collector current with respect to emitter current}.
+            \item The beta of a bipolar transistor is \textbf{the change of collector current with respect to base current}.
+            \item The change of collector current with respect to base current is called the \textbf{beta}.
+            \item The alpha of a bipolar transistor is specified for \textbf{common base} configuration.
+            \item The beta of a bipolar transistor is specified for \textbf{common base or common collector} configurations.
         \end{itemize}
 
         The terms Emitter, Collector and Base refer to bipolar transistors, of which there are two types: NPN and PNP\@.
         The Base-Emitter junction must be forward-biased for Base current to exist.
         A positive voltage on the Base supposes P material for conduction to take place, the `sandwich' is thus NPN\@.
         Inversely, a negative Base voltage relates to a PNP.
+
+        \begin{itemize}
+            \item \textbf{An NPN transistor} conducts electricity from a negative emitter to a positive collector when its base voltage is made positive.
+            \item \textbf{A PNP transistor} conducts electricity from a positive emitter to a negative collector when its base is made negative.
+        \end{itemize}
+
+        The Alpha being a number smaller than 1, many authors refer to it as the `common base forward current transfer ratio' rather than a gain.
+        In a `common base' configuration where the Emitter is the input and the Collector is the output, the Alpha factor (or common base forward current transfer ratio) is a ratio of a change in Collector current to the corresponding change in Emitter current.
+        In a `common emitter' configuration where the Base is the input and the Collector is the output, the Beta factor (or common emitter forward current gain) is a ratio of a change in Collector current to a given change in Base current.
+        The Beta factor applies equally to a Common Collector configuration where the Base is also the input.
+
+        \begin{itemize}
+            \item The alpha of a bipolar transistor in common base configuration is \textbf{forward current gain}.
+            \item The alpha of a bipolar transistor is equal to $\pmb{\beta / (1 + \beta)}$.
+            \item The current gain of a bipolar transistor in common emitter or common collector compared to common base configuration is \textbf{high to very high}.
+            \item The beta of a bipolar transistor is equal to $\pmb{\alpha / (1 - \alpha)}$.
+        \end{itemize}
 
         \newpage
 
